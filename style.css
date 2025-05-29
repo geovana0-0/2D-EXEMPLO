@@ -13,6 +13,47 @@
 }
 
 .logo{
- font-
+ font-size: 1.2em;
+font-weight:bold;
+color:brown
+}
 
 
+.menu ul{
+ list-style-type: style none;
+ display:flex;
+ gap:20px: }
+
+
+.menu a {
+  font-size:1.2em;
+  color:white
+  text-eecoration:none;
+  padding: 8px 12px;
+}
+
+
+/*responsivo para telas 
+menores*/
+ @media (max-width:568px){
+  .cabecalho{
+   flex-direction:column;
+   align-items:flex-start;
+  }
+   .cabecalho_logo{
+    display:none;
+   }
+    .menu ui{
+      flex-direction:column;
+      width:100%;
+      margin:0;
+      padding:0;
+    }
+
+
+    .menuli {
+      display: block;
+      width:100%;
+      margin:0;
+    }
+  }
